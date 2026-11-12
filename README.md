@@ -110,6 +110,34 @@ Feature-importance analysis also identified previous-day load as the dominant pr
 
 Residual analysis and actual-versus-predicted visualizations highlighted areas where the model performed well and where prediction errors remained, particularly around certain high-demand and low-demand periods.
 
+
+## Project Visualizations
+
+### Electricity Demand Patterns
+
+**Average Hourly ERCOT Demand**
+
+![Average hourly ERCOT electricity demand](Images/hourly_demand_pattern.png)
+
+**Average Hourly ERCOT Demand By Seasons**
+
+![Average hourly ERCOT electricity demand](Images/seasonal_hourly_demand_pattern.png)
+
+**Regional Electricity Demand Comparison**
+
+![ERCOT regional electricity demand comparison](Images/regional_demand_comparison.png)
+
+### Forecasting Performance
+
+**Model Performance Comparison**
+
+![Training and validation RMSE across forecasting models](Images/model_comparison.png)
+
+**Actual vs. Predicted Electricity Demand**
+
+![Actual versus predicted hourly ERCOT electricity demand](Images/actual_vs_predicted.png)
+
+
 ## Limitations
 
 - The dataset covers only one year.
