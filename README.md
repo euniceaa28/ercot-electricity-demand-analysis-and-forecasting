@@ -126,6 +126,6 @@ Python, pandas, NumPy, Matplotlib, Seaborn, scikit-learn, openpyxl, Jupyter Note
 
 ## Author
 
-[Your preferred professional name]
+Eunice Adegelu
 
 MS Engineering Data Science and AI — University of Houston
