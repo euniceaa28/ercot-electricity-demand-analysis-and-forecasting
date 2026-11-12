@@ -2,12 +2,12 @@
 
 ## Project Overview
 
-This project explores electricity demand patterns across the Electric Reliability Council of Texas (ERCOT) system using 2025 hourly native-load data. It combines exploratory data analysis (EDA) with machine learning to investigate historical demand patterns and evaluate next-day electricity load forecasting.
+This project explores electricity demand patterns across the Electric Reliability Council of Texas (ERCOT) system using 2025 hourly native-load data. It combines exploratory data analysis (EDA) with machine learning (ML) to investigate historical demand patterns and evaluate next-day electricity load forecasting.
 
 The project consists of two complementary Jupyter notebooks:
 
 1. **Exploratory Data Analysis:** Examines hourly, daily, weekly, seasonal, and regional electricity demand patterns.
-2. **Electricity Demand Forecasting:** Develops and evaluates machine learning models using calendar features and historical load observations.
+2. **Electricity Demand Forecasting:** Develops and evaluates ML models using calendar features and historical load observations.
 
 The objective is to demonstrate an end-to-end data science workflow, from data preparation and visualization to feature engineering, model selection, and evaluation.
 
@@ -67,7 +67,7 @@ These findings provide context for the forecasting models developed in the secon
 
 ## Notebook 02 — Electricity Demand Forecasting
 
-The second notebook evaluates machine learning models for predicting all 24 hourly ERCOT load observations for the next reporting date.
+The second notebook evaluates ML models for predicting all 24 hourly ERCOT load observations for the next reporting date.
 
 ### Feature Engineering
 
