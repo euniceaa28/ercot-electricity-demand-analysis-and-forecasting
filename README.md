@@ -23,6 +23,18 @@ The raw dataset contains 8,761 rows, including the header row, corresponding to 
 
 The forecasting dataset contains 8,448 observations across 352 complete reporting dates after excluding dates affected by incomplete daily profiles or unavailable historical lag features.
 
+### Data Source and Attribution
+
+The dataset used in this project was obtained from the Electric Reliability Council of Texas (ERCOT), through its publicly available historical hourly load archives.
+
+- **Source:** [ERCOT Hourly Load Data Archives](https://www.ercot.com/gridinfo/load/load_hist/)
+- **Dataset:** 2025 ERCOT Hourly Load Data
+- **Terms of Use:** [ERCOT Website Terms of Use](https://www.ercot.com/help/terms)
+
+ERCOT retains ownership of its original published materials. The data analysis, visualizations, feature engineering, and forecasting models in this repository were independently developed for educational and portfolio purposes. This project is not affiliated with or endorsed by ERCOT.
+
+The original dataset is provided for reproducibility in accordance with ERCOT's applicable terms of use.
+
 ## Project Structure
 
 ```text
