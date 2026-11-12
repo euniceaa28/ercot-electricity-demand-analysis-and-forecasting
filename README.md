@@ -50,6 +50,11 @@ ERCOT-DEMAND-ANALYSIS/
 └── .gitignore
 ```
 
+## Explore the Notebooks
+
+- **[Notebook 01 — Exploratory Data Analysis](Notebooks/01_ercot_demand_analysis.ipynb):** Explore hourly, daily, seasonal, and regional electricity demand patterns across ERCOT.
+- **[Notebook 02 — Electricity Demand Forecasting](Notebooks/02_ercot_demand_forecasting.ipynb):** Develop, tune, and evaluate machine learning models for next-day hourly electricity demand forecasting.
+
 ## Notebook 01 — Exploratory Data Analysis
 
 The first notebook investigates the characteristics of electricity demand across ERCOT and its regional zones.
