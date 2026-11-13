@@ -150,7 +150,7 @@ Residual analysis and actual-versus-predicted visualizations highlighted areas w
 - Some dates were excluded because of incomplete daily or lagged profiles.
 - Forecast issuance assumes that the preceding day's complete load observations are available.
 - Hyperparameter tuning used a single chronological validation period rather than expanding-window cross-validation.
-- The results have not been validated for operational deployment.
+- The reported 4.00% reduction in test RMSE reflects performance on the held-out 2025 test period relative to the previous-day persistence baseline. It does not establish improved grid reliability or operational forecasting performance without further validation.
 
 ## Future Improvements
 
@@ -158,12 +158,17 @@ Potential extensions include incorporating weather forecasts, using multiple yea
 
 ## How to Run
 
-1. Download or clone the repository.
-2. Install the dependencies using `pip install -r requirements.txt`.
-3. Open the project folder in VS Code or JupyterLab.
-4. Run `01_ercot_demand_analysis.ipynb` and `02_ercot_demand_forecasting.ipynb` from the `Notebooks` directory.
+1. Download or clone this repository.
+2. Open the project folder in VS Code or JupyterLab.
+3. Install the required libraries from the project root:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Open the `Notebooks` directory and run the notebooks in order:
+   - `01_ercot_demand_analysis.ipynb` — exploratory data analysis.
+   - `02_ercot_demand_forecasting.ipynb` — feature engineering, model training, and forecasting evaluation.
 
-Both notebooks expect the dataset at `../Data/Native_Load_2025.xlsx`.
+Both notebooks load the original dataset from `../Data/Native_Load_2025.xlsx` and can be run independently. Run the cells from top to bottom to reproduce the analyses and visualizations.
 
 ## Tools and Libraries
 
